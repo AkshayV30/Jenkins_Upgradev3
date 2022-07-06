@@ -1,4 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+  
+    <title>Tomcat-Sample-java-app</title>
+  
+
  <style>
         body {
             margin: 0;
@@ -10,15 +20,13 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+			text-align: center;
         }
   
-        h4 {
-            font-size: 5em;
-            font-family: serif;
+        .blink {
+            font-size: 2.5em;
 			color:#FF0000;
-            text-align: center;
-            animation: animate 
-                1.5s linear infinite;
+            animation: animate 2s linear infinite;
         }
   
         @keyframes animate {
@@ -35,14 +43,15 @@
             }
         }
     </style>
-
+</head>
 
 <body>
-<h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
-<h2> Deployed in Staging Area  </h2>
+
 <div>
-	<h2> status : </h2>
-	<h4>  success </h4>
+	<h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
+	<p> Deployed in Staging Area  
+	 <strong>status : </strong>  </p> 
+	 <div class ="blink">  success !</div>
 </div>
 </body>
 </html>
