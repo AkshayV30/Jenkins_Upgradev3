@@ -18,6 +18,7 @@
         div {
             position: absolute;
             top: 50%;
+			left:50%;
             transform: translate(-50%, -50%);
 		 }
   
@@ -44,12 +45,12 @@
 </head>
 
 <body>
-
+<h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
 <div>
-	<h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
-	<p> Deployed in Staging Area  
-	 <strong>status : </strong>  </p> 
-	 <div class ="blink">  success !</div>
 </div>
+
+
+	<h2> Deployed in Staging Area status :   </h2> 
+	 <div class ="blink">  success !</div>
 </body>
 </html>
