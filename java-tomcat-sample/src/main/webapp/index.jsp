@@ -51,9 +51,12 @@
 
 <body>
 <h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
+
 <div class="container">
 	<h2> Deployed in Staging Area status :   </h2> 
 		<div class ="blink">  success ! </div>
 </div>
+
+<p> this is the modified version of orginal web app</p>
 </body>
 </html>
