@@ -15,13 +15,16 @@
             padding: 0;
         }
   
-       /* div {
-            position: absolute;
+        .container {
+          /*  position: absolute;
             top: 50%;
 			left:50%;
             transform: translate(-50%, -50%);
+			*/
+			display:float;
+			
 		 }
-		*/
+		
 		
         .blink {
             font-size: 2.5em;
@@ -47,7 +50,9 @@
 
 <body>
 <h1>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h1>
-<h2> Deployed in Staging Area status :   </h2> 
-<div class ="blink">  success ! </div>
+<div class="container">
+	<h2> Deployed in Staging Area status :   </h2> 
+		<div class ="blink">  success ! </div>
+</div>
 </body>
 </html>
