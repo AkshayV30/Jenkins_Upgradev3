@@ -21,15 +21,16 @@
 			left:50%;
             transform: translate(-50%, -50%);
 			*/
-			display:float;
+			display: flex;
+			align-items: center;
 			
 		 }
 		
 		
         .blink {
-            font-size: 2.5em;
+            /* font-size: 2.5em; */
 			color:#FF0000;
-            animation: animate 2s linear infinite;
+            animation: animate 3s linear infinite;
         }
   
         @keyframes animate {
